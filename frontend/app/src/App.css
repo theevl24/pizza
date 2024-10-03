@@ -1,0 +1,28 @@
+/* src/App.css */
+.App {
+  text-align: center;
+}
+
+nav {
+  background-color: #ffa500; /* Заполняем фон оранжевым цветом */
+  padding: 20px;
+  display: flex;
+  justify-content: center; /* Центрируем содержимое */
+  align-items: center;
+  border: 2px solid #ffa500; /* Оранжевая рамка того же цвета, что и фон */
+  border-radius: 25px; /* Делаем края более округленными */
+  width: 80%;
+  margin: 20px auto; /* Центрируем на странице */
+}
+
+nav a {
+  color: #fff; /* Белый цвет текста */
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 20px; /* Отступы между элементами меню */
+}
+
+nav a:hover {
+  text-decoration: underline;
+}

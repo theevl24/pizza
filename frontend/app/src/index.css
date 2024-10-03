@@ -1,0 +1,15 @@
+/* src/index.css */
+body {
+  background-image: url('images/ramka.png'); /* Укажите путь к вашему изображению */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh; /* Задаём минимальную высоту экрана */
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

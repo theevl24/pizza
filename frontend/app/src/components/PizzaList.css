@@ -1,0 +1,56 @@
+/* src/components/PizzaList.css */
+.pizza-list {
+  text-align: center;
+  padding: 20px;
+}
+
+.pizza-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.pizza-card {
+  display: flex;
+  background-color: #ffa500; /* Оранжевый фон */
+  border-radius: 15px; /* Закругленные углы */
+  padding: 20px;
+  margin: 20px;
+  width: 600px; /* Ширина карточки */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Тень для объёмного эффекта */
+}
+
+.pizza-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.pizza-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.pizza-left h3,
+.pizza-price,
+.pizza-description {
+  font-weight: bold;
+}
+
+.pizza-price {
+  margin-top: 10px;
+}
+
+.pizza-right {
+  flex: 2;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
