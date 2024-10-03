@@ -13,7 +13,7 @@ function Admin() {
 
   const handleLogin = () => {
     // Простая проверка пароля
-    if (password === 'admin123') {
+    if (password === 'admin1234') {
       setIsAuthenticated(true);
     } else {
       alert('Неверный пароль!');
